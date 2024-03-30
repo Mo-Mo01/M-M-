@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;height: 50px;background-color:aqua
+}
+*{box-sizing: border-box}
+.box{
+	width: 100px;height: auto
+}
+.img100{
+	width: 100%;height: auto;padding-top: 15px
+}
+.menu{
+	padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;color: #4D4D4D
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white;border-radius: 50px
+}
+main{
+	width: 100%;min-height: 500px
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../image/chic-modern-luxury-aesthetics-style-living-room-blue-tone.jpg");background-repeat: no-repeat;background-size: cover;background-position: center
+}
+.shadow{
+	border: 1px solid gray;width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 30px;border-radius: 10px
+}
+.gach-chan{
+	border-bottom: 2px solid #7C1416
+}
+.pt-30{
+	padding-top: 30px
+}
+.shadow{
+	border: 1px solid gray;width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+footer{
+	width: 100%;min-height: 400px;background-color: darkgray;color: #292929;;display: flex;flex-direction: column;align-items: center
+}
+footer a{
+	text-decoration: none;color: #272727
+}
+footer a:hover{
+	color: gold
+}
+.col-3{
+	display: flex;justify-content: space-around
+}
